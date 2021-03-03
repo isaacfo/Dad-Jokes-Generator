@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(104, 114, 247);
+  font-family: 'Roboto';
+  display: flex;
+  /* flex-direction: column; */
+  /* veritcally centered */
+  align-items: center;
+  /* horizonatally centered, needs to have height to work */
+  justify-content: center;
+  height: 100vh;
+  /* to give some space on edges when on smaller screens duw to max-width property */
+  padding: 20px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 06px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  max-width: 100%;
+  width: 800px;
+  height: 300px;
+}
+
+h3 {
+  margin: 0;
+  opacity: 0.5;
+  letter-spacing: 2px;
+}
+
+.joke {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  /* to space out content in box */
+  margin: 50px;
+  max-width: 600px;
+}
+
+.jokeBtn {
+  background-color: rgb(153, 78, 223);
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 06px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 14px 40px;
+}
+
+.jokeBtn:active {
+  transform: scale(0.98);
+}
+
+.jokeBtn:focus {
+  outline: 0;
+}
